@@ -1,6 +1,10 @@
-process.env.NODE_ENV = process.env.NODE_ENV || 'development'
-process.env.WEBSOCKET_URL = process.env.WEBSOCKET_URL || '/cable'
+// config/webpack/development.js
 
-const environment = require('./environment')
+process.env.NODE_ENV = process.env.NODE_ENV || 'development'
+
+
+const environment = require('@rails/webpacker').environment
+
 
 module.exports = environment.toWebpackConfig()
+

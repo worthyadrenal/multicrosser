@@ -1,0 +1,11 @@
+process.env.NODE_ENV = process.env.NODE_ENV || 'development'
+
+const webpackConfig = require('./base')
+
+module.exports = {
+  mode: 'development',
+  entry: './app/javascript/packs/application.js', // <-- Adjust this path
+  // ... other config
+};
+
+module.exports = webpackConfig
