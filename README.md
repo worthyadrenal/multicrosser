@@ -1,5 +1,7 @@
 # Multiplayer Crosswords with Multicrosser
 
+These are some personal updates - not yet working - from the Chris Zetter proejct with his original readme below.
+
 This is a Rails Application that uses WebSockets and the [react-crossword](https://github.com/zetter/react-crossword) component to create multiplayer crosswords. You can [read a blog post about why I built it and how it works](https://chriszetter.com/blog/2018/12/02/multiplayer-crosswords/).
 
 You can see a demo at [multicrosser.chriszetter.com](https://multicrosser.chriszetter.com).
